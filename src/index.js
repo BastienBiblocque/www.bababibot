@@ -6,12 +6,16 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Index from "./Page";
 import Tools from "./Page/tools";
 import './i18n/i18n';
+import Food from "./Page/Food/food";
+import AddFood from "./Page/Food/add";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/foods" element={<Food />} />
+            <Route path="/foods/add" element={<AddFood />} />
             <Route path="/tools" element={<Tools />} />
         </Routes>
     </BrowserRouter>

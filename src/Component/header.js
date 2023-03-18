@@ -7,11 +7,11 @@ function Header() {
     return (
         <div className="navbar bg-primary">
             <div className="flex-1">
-                <Link to="/"><a className="btn btn-ghost normal-case text-xl">Template react</a></Link>
+                <Link to="/"><a className="btn btn-ghost normal-case text-xl">Bababibot</a></Link>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
-                    <li><Link to="/tools">{t('Tools')}</Link></li>
+                    <li><Link to="/foods">{t('Restaurant')}</Link></li>
                 </ul>
             </div>
         </div>

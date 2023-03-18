@@ -2,5 +2,12 @@
   "Welcome to React": "Bienvenue à React et react-i18next",
   "Toast" : "Toast moi",
   "Toast message" : "Message toasté",
-  "Tools" : "Outils"
+  "Tools" : "Outils",
+  "Restaurant" : "Restaurants",
+  "Add" : "Ajouter",
+  "Submit" : "Ajouter",
+  "city" : "Ville",
+  "restaurant" : "Restaurant",
+  "FoodCommandBot" : "Vous pouvez ajouter directement un restaurant avec la commande b! food add ville restaurant.",
+  "RequiredField" : "Ce champs est requis"
 }
